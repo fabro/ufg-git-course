@@ -4,6 +4,7 @@ trucks <- c(2, 5, 4, 5, 12)
 
 # Graph cars using a y axis that ranges from 0 to 12
 plot(cars, type="o", col="black", ylim=c(0,12))
+abline(h=5)
 
 # Graph trucks with red dashed line and square points
 lines(trucks, type="o", pch=22, lty=2, col="black")
